@@ -6,10 +6,16 @@ body {
 
 .container {
     background: white;
-    width: 300px;
-    margin: 50px auto;
+    width: 350px;
+    margin: 60px auto;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.input-section {
+    display: flex;
+    justify-content: space-between;
 }
 
 input {
@@ -25,8 +31,14 @@ button {
 li {
     list-style: none;
     padding: 8px;
-    margin-top: 5px;
+    margin-top: 8px;
     background: #ddd;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.completed {
+    text-decoration: line-through;
+    background: #b5e7b5;
 }
